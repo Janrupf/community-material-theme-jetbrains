@@ -1,3 +1,5 @@
+# PARTS OF THE README CURRENTLY REFLECT THE OLD PAID VERSION, CHANGES ARE TO BE MADE!
+
 <div align="center">
   <a href="https://www.material-theme.com">
 <img src="logo.svg" width="320" height="320" alt="logo"></img>
