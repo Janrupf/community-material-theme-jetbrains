@@ -1,6 +1,13 @@
 # Changelog
 ----
 
+# 6.0.0
+### Fork of paid version
+
+- Forked from paid version
+
+----
+
 # 5.7.0
 - Support for 2021.1
 - Fix Material Wallpapers
