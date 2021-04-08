@@ -4,71 +4,33 @@
 </a>
 </div>
 
-# Material Theme UI for Jetbrains
+# Free Material Theme UI for Jetbrains
 
-This is a port of the famous [Material Theme](https://github.com/equinusocio/vsc-material-theme) for Jetbrains IDEs, allowing a total customization of the IDE including Themes, Color Schemes, Icons and many other features.
+This is a fork of the port of the famous [Material Theme](https://github.com/equinusocio/vsc-material-theme) for
+Jetbrains IDEs, allowing a total customization of the IDE including Themes, Color Schemes, Icons and
+many other features.
 
-[![GitHub issues](https://img.shields.io/github/issues/ChrisRM/material-theme-jetbrains.svg)](https://github.com/ChrisRM/material-theme-jetbrains/issues) [![GitHub stars](https://img.shields.io/github/stars/ChrisRM/material-theme-jetbrains.svg)](https://github.com/ChrisRM/material-theme-jetbrains/stargazers)
-[![Twitter](https://img.shields.io/twitter/url/https/github.com/ChrisRM/material-theme-jetbrains.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FChrisRM%2Fmaterial-theme-jetbrains)
-
-
-![GitHub tag](https://img.shields.io/github/tag/ChrisRM/material-theme-jetbrains.svg)
-![JetBrains IntelliJ Plugins](https://img.shields.io/jetbrains/plugin/v/8006-material-theme-ui.svg)
-
-
-![Github All Releases](https://img.shields.io/github/downloads/ChrisRM/material-theme-jetbrains/total.svg)
-![JetBrains IntelliJ plugins](https://img.shields.io/jetbrains/plugin/d/8006-material-theme-ui.svg?label=plugin%20downloads)
-
-
-#### Plugin pages:
-
-<https://plugins.jetbrains.com/plugin/8006-material-theme-ui>
-<https://plugins.jetbrains.com/plugin/10044-atom-material-icons>
+After the original plugin changed to a paid model, this fork has been made to keep a free version available.
 
 ## Documentation:
 <https://www.material-theme.com>
 
 ![laptop-full](laptop-full.png)
-
-#### Donate via Paypal:
-
-_@ChrisRM_:
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=LSF7K29JBPMWU&lc=US&item_name=Material%20Theme%20JetBrains%20Development&item_number=m1&currency_code=NOK&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
-
-_@Mallowigi_:
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/mallowigi)
-
-#### OpenCollective Backers
-
-<img src="https://opencollective.com/material-theme-jetbrains/tiers/backer/badge.svg?label=Backers&color=brightgreen" />
-
-<object type="image/svg+xml" data="https://opencollective.com/material-theme-jetbrains/tiers/backer.svg?avatarHeight=36&width=600"></object>
-
-[![Sponsors on Open Collective](https://opencollective.com/material-theme-jetbrains/sponsors/badge.svg)](#sponsors)
-
-#### Sponsors
-
-The Material Theme plugin is sponsored by [CodeStream](https://codestream.com/?utm_source=jbmarket&utm_medium=banner&utm_campaign=jbmaterialtheme) and [Codota](https://www.codota.com/?url=https://www.codota.com&device=c&keyword=codota&country={country}&campaign={campaign}&gclid=EAIaIQobChMI0MTRrsS55gIVQrDtCh2Reg7FEAAYASAAEgK0QfD_BwE).
-
-[![https://codestream.com](https://alt-images.codestream.com/codestream_logo_jbmaterialtheme.png)](https://sponsorlink.codestream.com/?utm_source=jbmarket&utm_campaign=jbmaterialtheme&utm_medium=banner)
-
-Eliminate context switching and costly distractions. Create and merge PRs and perform code reviews from inside your IDE while using jump-to-definition, your keybindings, and other IDE favorites. [Learn more](https://sponsorlink.codestream.com/?utm_source=jbmarket&utm_campaign=jbmaterialtheme&utm_medium=banner)!
-
-[![https://www.codota.com](https://d3ftmdkezac6rp.cloudfront.net/plugins/assets/logo.b81d20edb7ae4d8ff43b886ae5cde1dd.svg)](https://www.codota.com/?url=https://www.codota.com&device=c&keyword=codota&country={country}&campaign={campaign}&gclid=EAIaIQobChMI0MTRrsS55gIVQrDtCh2Reg7FEAAYASAAEgK0QfD_BwE)
-
-Code faster and smarter using code completions learned from millions of programs directly in IntelliJ, Android Studio or Eclipse. [Get Codota](https://www.codota.com/?url=https://www.codota.com&device=c&keyword=codota&country={country}&campaign={campaign}&gclid=EAIaIQobChMI0MTRrsS55gIVQrDtCh2Reg7FEAAYASAAEgK0QfD_BwE)
-
 --------------------
 
 ## Contribution
 
 Pull requests are appreciated! I can use some help on bugs and features listed in 
-<https://github.com/ChrisRM/material-theme-jetbrains/issues>, or you can send me some new ideas!
+<https://github.com/Janrupf/material-theme-jetbrains/issues>, or you can send me some new ideas!
 
 --------------------
 
 # Authors:
+
+_To be filled_
  
+### Old, now paid version:
+
 Twitter: [@crmag](https://twitter.com/crmag)
 [@mallowigi](https://twitter.com/mallowigi)
 
@@ -146,36 +108,3 @@ Check out my other projects:
 - [Custom Syntax Highlighter](https://github.com/mallowigi/Custom-Syntax-Highlighter) - Proof of concept for defining custom keywords highlighting.
 - [Material Theme UI for Chrome](https://chrome.google.com/webstore/detail/material-devtools-theme-c/jmefikbdhgocdjeejjnnepgnfkkbpgjo) - Porting of the Material Theme for Chrome
 - [Slack Themes](https://github.com/mallowigi/slack-themes) - Porting of the Material Theme to Slack
-
-
-
-## Contributors
-
-This project exists thanks to all the people who contribute. 
-<a href="graphs/contributors"><img src="https://opencollective.com/material-theme-jetbrains/contributors.svg?width=890&button=false" /></a>
-
-
-## Backers
-
-Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/material-theme-jetbrains#backer)]
-
-<a href="https://opencollective.com/material-theme-jetbrains#backers" target="_blank"><img src="https://opencollective.com/material-theme-jetbrains/backers.svg?width=890"></a>
-
-Check also : <https://www.material-theme.com/docs/support-us/>
-
-## Sponsors
-
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/material-theme-jetbrains#sponsor)]
-
-<a href="https://opencollective.com/material-theme-jetbrains/sponsor/0/website" target="_blank"><img src="https://opencollective.com/material-theme-jetbrains/sponsor/0/avatar.svg"></a>
-<a href="https://opencollective.com/material-theme-jetbrains/sponsor/1/website" target="_blank"><img src="https://opencollective.com/material-theme-jetbrains/sponsor/1/avatar.svg"></a>
-<a href="https://opencollective.com/material-theme-jetbrains/sponsor/2/website" target="_blank"><img src="https://opencollective.com/material-theme-jetbrains/sponsor/2/avatar.svg"></a>
-<a href="https://opencollective.com/material-theme-jetbrains/sponsor/3/website" target="_blank"><img src="https://opencollective.com/material-theme-jetbrains/sponsor/3/avatar.svg"></a>
-<a href="https://opencollective.com/material-theme-jetbrains/sponsor/4/website" target="_blank"><img src="https://opencollective.com/material-theme-jetbrains/sponsor/4/avatar.svg"></a>
-<a href="https://opencollective.com/material-theme-jetbrains/sponsor/5/website" target="_blank"><img src="https://opencollective.com/material-theme-jetbrains/sponsor/5/avatar.svg"></a>
-<a href="https://opencollective.com/material-theme-jetbrains/sponsor/6/website" target="_blank"><img src="https://opencollective.com/material-theme-jetbrains/sponsor/6/avatar.svg"></a>
-<a href="https://opencollective.com/material-theme-jetbrains/sponsor/7/website" target="_blank"><img src="https://opencollective.com/material-theme-jetbrains/sponsor/7/avatar.svg"></a>
-<a href="https://opencollective.com/material-theme-jetbrains/sponsor/8/website" target="_blank"><img src="https://opencollective.com/material-theme-jetbrains/sponsor/8/avatar.svg"></a>
-<a href="https://opencollective.com/material-theme-jetbrains/sponsor/9/website" target="_blank"><img src="https://opencollective.com/material-theme-jetbrains/sponsor/9/avatar.svg"></a>
-
-

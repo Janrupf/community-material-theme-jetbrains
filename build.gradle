@@ -31,7 +31,6 @@ buildscript {
     }
 }
 
-
 plugins {
     id 'org.jetbrains.intellij' version '0.7.2'
     id 'checkstyle'
@@ -107,11 +106,11 @@ intellij {
 //        untilBuild System.getenv("pluginUntilBuild") ?: untilBuildP
     }
 
-    publishPlugin {
+    /* publishPlugin {
         token file("$projectDir/publishToken").text ?: System.getenv("publishToken") ?: publishToken
         username System.getenv("publishUsername") ?: publishUsername
         password System.getenv("publishPassword") ?: publishPassword
-    }
+    } */
 
     buildSearchableOptions {
         enabled false
