@@ -76,7 +76,7 @@ public class MTLafInstaller {
   }
 
   /**
-   * Install Material Theme UI Components.
+   * Install Community Material Theme Components.
    * <p>
    * Some components will only be installed if the Material Components option is set, while others depend on other options, such as
    * Compact Statusbars, Arrow Styles, Title bar and so on.

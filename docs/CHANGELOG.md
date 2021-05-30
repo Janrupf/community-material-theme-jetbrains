@@ -1,6 +1,11 @@
 # Changelog
 ----
 
+# 6.1.0
+- Change branding to Community Material Theme
+- Use a new Logo
+- Fix compatibility with 2021.2 IDE's
+
 # 6.0.0
 ### Fork of paid version
 

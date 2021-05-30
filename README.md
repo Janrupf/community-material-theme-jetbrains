@@ -1,10 +1,11 @@
-# Free Material Theme UI for Jetbrains
+# Community Material Theme for Jetbrains
 
 This is a fork of the port of the famous [Material Theme](https://github.com/equinusocio/vsc-material-theme) for
 Jetbrains IDEs, allowing a total customization of the IDE including Themes, Color Schemes, Icons and
 many other features.
 
-After the original plugin changed to a paid model, this fork has been made to keep a free version available.
+After the [original plugin](https://github.com/ChrisRM/material-theme-jetbrains) changed to a paid model, this fork has
+been made to keep a free version available.
 
 ![laptop-full](laptop-full.png)
 --------------------
@@ -17,10 +18,11 @@ Pull requests are appreciated! I can use some help on bugs and features listed i
 --------------------
 
 # Authors:
+### Community Material Theme (this repository):
 
 Janrupf [@Janrupf](https://github.com/Janrupf)
 
-### Old, now paid version:
+### Old, now paid version (https://github.com/ChrisRM/material-theme-jetbrains):
 
 Twitter: [@crmag](https://twitter.com/crmag)
 [@mallowigi](https://twitter.com/mallowigi)

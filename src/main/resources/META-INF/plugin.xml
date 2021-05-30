@@ -26,7 +26,7 @@
 
 <idea-plugin>
     <id>net.janrupf.idea.MaterialThemeUI</id>
-    <name>Free Material Theme UI</name>
+    <name>Community Material Theme</name>
     <version>@version@</version>
     <vendor url="https://github.com/Janrupf">Janrupf</vendor>
 
