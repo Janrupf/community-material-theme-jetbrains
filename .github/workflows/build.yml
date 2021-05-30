@@ -28,10 +28,10 @@ jobs:
             exit 1
           fi
 
-          mv build/distributions/*.zip FreeMaterialThemePlugin.zip
+          mv build/distributions/*.zip CommunityMaterialTheme.zip
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
         with:
           name: Plugin distribution
-          path: FreeMaterialThemePlugin.zip
+          path: CommunityMaterialTheme.zip
