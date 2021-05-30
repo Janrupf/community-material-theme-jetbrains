@@ -1,11 +1,3 @@
-# PARTS OF THE README CURRENTLY REFLECT THE OLD PAID VERSION, CHANGES ARE TO BE MADE!
-
-<div align="center">
-  <a href="https://www.material-theme.com">
-<img src="logo.svg" width="320" height="320" alt="logo"></img>
-</a>
-</div>
-
 # Free Material Theme UI for Jetbrains
 
 This is a fork of the port of the famous [Material Theme](https://github.com/equinusocio/vsc-material-theme) for
@@ -13,9 +5,6 @@ Jetbrains IDEs, allowing a total customization of the IDE including Themes, Colo
 many other features.
 
 After the original plugin changed to a paid model, this fork has been made to keep a free version available.
-
-## Documentation:
-<https://www.material-theme.com>
 
 ![laptop-full](laptop-full.png)
 --------------------
@@ -29,8 +18,8 @@ Pull requests are appreciated! I can use some help on bugs and features listed i
 
 # Authors:
 
-_To be filled_
- 
+Janrupf [@Janrupf](https://github.com/Janrupf)
+
 ### Old, now paid version:
 
 Twitter: [@crmag](https://twitter.com/crmag)
@@ -43,12 +32,6 @@ Github: [@ChrisRM](https://github.com/chrisrm) [@Mallowigi](https://github.com/m
 Blog: <http://www.material-theme.com/docs/blog/>
 
 **Thanks to [@equinusocio](https://github.com/equinusocio) and his original [Material Theme](https://github.com/equinusocio/vsc-material-theme) for the inspiration.**
-
-# Contact
-You can contact us or ask questions via [Gitter](https://gitter.im/Material-Theme-Jetbrains/Lobby#) or our brand new
-[Slack community!](https://join.slack.com/t/material-theme-ui/shared_invite/zt-4w78iblt-cHXYRYERpuGNbD~TqsD8rg)
-
-Come say hello!
 
 ## Other portings
 
@@ -98,15 +81,5 @@ Also many thanks to other plugin developers for helping me solving A LOT of issu
 * [GitIgnore](https://github.com/hsz/idea-gitignore)
 * [Project Label](https://github.com/drinchev/project-label)
 
-Thanks to all [original plugin contributors](https://github.com/ChrisRM/material-theme-jetbrains/graphs/contributors), 
-[EAP contributors](https://github.com/mallowigi/material-theme-jetbrains-docs/graphs/contributors)
+Thanks to all [original plugin contributors](https://github.com/Janrupf/material-theme-jetbrains/graphs/contributors)
 and a special thanks to the guys at [JetBrains](https://www.jetbrains.com/) for contributing and showing interest in the project!
-
-## Other Projects
-
-Check out my other projects:
-- [Image Icon Plugin](https://plugins.jetbrains.com/plugin/11096-image-icon-viewer) - A previewer for small images and svgs directly in the Project View
-- [Atom Material Icons](https://plugins.jetbrains.com/plugin/10044-atom-material-icons) - A mix of the Atom File Icons and the Material Icons, or if you prefer, the Icons component of this plugin :)
-- [Custom Syntax Highlighter](https://github.com/mallowigi/Custom-Syntax-Highlighter) - Proof of concept for defining custom keywords highlighting.
-- [Material Theme UI for Chrome](https://chrome.google.com/webstore/detail/material-devtools-theme-c/jmefikbdhgocdjeejjnnepgnfkkbpgjo) - Porting of the Material Theme for Chrome
-- [Slack Themes](https://github.com/mallowigi/slack-themes) - Porting of the Material Theme to Slack
