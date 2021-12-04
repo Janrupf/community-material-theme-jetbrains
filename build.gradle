@@ -31,7 +31,7 @@ buildscript {
 plugins {
     id 'org.kordamp.gradle.markdown' version "2.2.0"
     id 'org.jetbrains.intellij' version '0.7.2'
-    id "org.jetbrains.kotlin.jvm" version "1.3.20"
+    id "org.jetbrains.kotlin.jvm" version "1.5.32"
 }
 
 repositories {
@@ -57,9 +57,13 @@ apply plugin: "kotlin"
 tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
     //noinspection GrUnresolvedAccess
     kotlinOptions {
-        apiVersion = "1.0"
+        apiVersion = "1.3"
         jvmTarget = "1.8"
     }
+}
+
+tasks.processResources {
+    duplicatesStrategy = DuplicatesStrategy.WARN
 }
 
 sourceSets {
@@ -112,7 +116,7 @@ intellij {
 }
 compileKotlin {
     kotlinOptions {
-        apiVersion = "1.1"
+        apiVersion = "1.3"
         jvmTarget = "1.8"
     }
 }

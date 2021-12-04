@@ -26,7 +26,6 @@
 
 package com.mallowigi.idea.lafs;
 
-import com.intellij.ide.ui.laf.IdeaBlueMetalTheme;
 import com.intellij.ide.ui.laf.UIThemeBasedLookAndFeelInfo;
 import com.intellij.ide.ui.laf.darcula.DarculaLaf;
 import com.intellij.util.xmlb.annotations.Transient;
@@ -34,7 +33,6 @@ import com.mallowigi.idea.themes.models.MTThemeable;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.*;
-import javax.swing.plaf.metal.DefaultMetalTheme;
 
 /**
  * Look and Feel class for Dark Material Themes
@@ -99,15 +97,6 @@ public final class MTNativeLaf extends DarculaLaf {
       return super.getPrefix();
     } else {
       return "intellijlaf";
-    }
-  }
-
-  @Override
-  protected DefaultMetalTheme createMetalTheme() {
-    if (theme.isDark()) {
-      return super.createMetalTheme();
-    } else {
-      return new IdeaBlueMetalTheme();
     }
   }
 }

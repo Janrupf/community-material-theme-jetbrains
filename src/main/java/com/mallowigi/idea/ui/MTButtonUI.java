@@ -331,7 +331,7 @@ public final class MTButtonUI extends DarculaButtonUI {
         Math.max(prefSize.height, helpDiam + insets.top + insets.bottom)
       );
     } else {
-      final int width = getComboAction(c) != null ?
+      final int width = isComboAction(c) ?
                         prefSize.width :
                         Math.max(
                           (HORIZONTAL_PADDING << 1) + prefSize.width,
