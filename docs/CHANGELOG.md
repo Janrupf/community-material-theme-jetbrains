@@ -1,6 +1,10 @@
 # Changelog
 ----
 
+# 6.2.0
+- Fix compatibility with 2021.3 IDE's
+- Switch to Java 11 and Kotlin 1.5
+
 # 6.1.0
 - Change branding to Community Material Theme
 - Use a new Logo

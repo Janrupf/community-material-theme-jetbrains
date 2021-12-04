@@ -30,7 +30,7 @@ buildscript {
 
 plugins {
     id 'org.kordamp.gradle.markdown' version "2.2.0"
-    id 'org.jetbrains.intellij' version '0.7.2'
+    id 'org.jetbrains.intellij' version '1.3.0'
     id "org.jetbrains.kotlin.jvm" version "1.5.32"
 }
 
@@ -48,8 +48,8 @@ dependencies {
 }
 
 apply plugin: 'java'
-sourceCompatibility = JavaVersion.VERSION_1_8
-targetCompatibility = JavaVersion.VERSION_1_8
+sourceCompatibility = JavaVersion.VERSION_11
+targetCompatibility = JavaVersion.VERSION_11
 
 apply plugin: "kotlin"
 
@@ -57,8 +57,8 @@ apply plugin: "kotlin"
 tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
     //noinspection GrUnresolvedAccess
     kotlinOptions {
-        apiVersion = "1.3"
-        jvmTarget = "1.8"
+        apiVersion = "1.5"
+        jvmTarget = "11"
     }
 }
 
@@ -81,22 +81,20 @@ markdownToHtml {
 version = System.getenv("pluginVersion") ?: pluginVersion
 
 intellij {
-    pluginName 'Material Theme'
-    type 'IU'
-    version 'LATEST-EAP-SNAPSHOT'
-    downloadSources true
-    instrumentCode true
+    pluginName = 'Material Theme'
+    type = 'IU'
+    version = 'LATEST-EAP-SNAPSHOT'
+    downloadSources = true
+    instrumentCode = true
 //    sameSinceUntilBuild false
-    updateSinceUntilBuild true
-    alternativeIdePath idePath
+    updateSinceUntilBuild = true
 //    systemProperty "idea.platform.prefix","DataGrip"
 
 //    plugins 'org.jetbrains.plugins.go:193.5233.102.83'
 
     patchPluginXml {
-        version "$version"
-        sinceBuild System.getenv("pluginSinceBuild") ?: sinceBuildP
-        changeNotes file("$projectDir/docs/CHANGELOG.html").text
+        sinceBuild = System.getenv("pluginSinceBuild") ?: sinceBuildP
+        changeNotes = file("$projectDir/docs/CHANGELOG.html").text
 //        untilBuild System.getenv("pluginUntilBuild") ?: untilBuildP
     }
 
@@ -106,17 +104,25 @@ intellij {
         password System.getenv("publishPassword") ?: publishPassword
     } */
 
-    buildSearchableOptions {
-        enabled false
-    }
-
 //    runIde {
 //        jbrVersion '11_0_3b312'
 //    }
 }
+
+buildSearchableOptions {
+    enabled false
+}
+
+compileJava {
+    options.compilerArgs.addAll([
+            "--add-exports=java.desktop/sun.awt=ALL-UNNAMED",
+            "--add-exports=java.desktop/sun.swing=ALL-UNNAMED"
+    ])
+}
+
 compileKotlin {
     kotlinOptions {
-        apiVersion = "1.3"
-        jvmTarget = "1.8"
+        apiVersion = "1.5"
+        jvmTarget = "11"
     }
 }
